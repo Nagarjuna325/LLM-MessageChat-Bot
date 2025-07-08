@@ -21,15 +21,15 @@ This project demonstrates how to build an intelligent chatbot with memory capabi
 ### 1. Clone the repository
 
 
-git clone https://github.com/your-username/langchain-groq-chatbot.git
-cd langchain-groq-chatbot
+    git clone https://github.com/your-username/langchain-groq-chatbot.git
+    cd langchain-groq-chatbot
 2. Create a virtual environment
 
-python -m venv venv
+       python -m venv venv
 # On Windows:
-venv\Scripts\activate
+    venv\Scripts\activate
 # On Mac/Linux:
-source venv/bin/activate
+    source venv/bin/activate
 
 3.Install dependencies
 
@@ -40,6 +40,7 @@ source venv/bin/activate
      Create a .env file in the root directory and add your Groq API key:
 
 GROQ_API_KEY=your_groq_api_key_here
+
 🚀 Running the Notebook
 To run the chatbot:
 
