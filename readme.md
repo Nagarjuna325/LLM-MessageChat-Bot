@@ -30,9 +30,11 @@ python -m venv venv
 venv\Scripts\activate
 # On Mac/Linux:
 source venv/bin/activate
+
 3. Install dependencies
 
 pip install -r requirements.txt
+
 4. Set up your .env file
 Create a .env file in the root directory and add your Groq API key:
 
