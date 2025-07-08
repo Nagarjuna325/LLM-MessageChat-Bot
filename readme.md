@@ -24,32 +24,22 @@ This project demonstrates how to build an intelligent chatbot with memory capabi
 git clone https://github.com/your-username/langchain-groq-chatbot.git
 cd langchain-groq-chatbot
 2. Create a virtual environment
-bash
-Copy
-Edit
+
 python -m venv venv
 # On Windows:
 venv\Scripts\activate
 # On Mac/Linux:
 source venv/bin/activate
 3. Install dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 4. Set up your .env file
 Create a .env file in the root directory and add your Groq API key:
 
-ini
-Copy
-Edit
 GROQ_API_KEY=your_groq_api_key_here
 🚀 Running the Notebook
 To run the chatbot:
 
-bash
-Copy
-Edit
 jupyter notebook
 Open 1-chatbots.ipynb and run cells step-by-step.
 
@@ -65,9 +55,7 @@ Open 1-chatbots.ipynb and run cells step-by-step.
 ✅ Powered by Groq’s Gemma2-9b-It model
 
 🌐 Example
-python
-Copy
-Edit
+
 HumanMessage(content="Hi, my name is Arjun")
 # Later...
 HumanMessage(content="What's my name?")
@@ -75,9 +63,6 @@ The assistant will remember that your name is Arjun if you're using the same ses
 
 You can also specify response language:
 
-python
-Copy
-Edit
 {
   "messages": [HumanMessage(content="Hi")],
   "language": "Hindi"
@@ -85,9 +70,6 @@ Edit
 📦 Dependencies
 Make sure these packages are included in requirements.txt:
 
-txt
-Copy
-Edit
 langchain
 langchain-core
 langchain-groq
